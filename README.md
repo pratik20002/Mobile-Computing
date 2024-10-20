@@ -1,1 +1,2 @@
-# Mobile-Computing
+Project Proposal
+Members - Manpreet Kaur
