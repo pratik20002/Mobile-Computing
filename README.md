@@ -60,7 +60,7 @@ ColorVision will use a freemium model with the following strategies:
 ## Initial Design
 
 ### Minimum Viable Product (MVP)
-The MVP for ColorVision will include:
+The MVP for ColorVision includes:
 
 - **User-Friendly Interface:** Simple, intuitive design for users of all ages.
 - **Color Blindness Tests:** Ishihara and Farnsworth D-15 tests with immediate feedback.
@@ -68,8 +68,21 @@ The MVP for ColorVision will include:
 - **Educational Resources:** Informative content on color blindness types and management tips.
 - **Accessibility Features:** Adjustable text size and settings for user accessibility.
 
-### Scope and Limitations
-The MVP will not initially include advanced features like personalized progress tracking or healthcare integration. Multilingual support will be added in future updates. The focus is on essential testing and educational functionalities to validate the app’s core concept.
+---
+
+## Remaining Work
+
+### Revamped UI
+To enhance user experience, the app's user interface needs to be revamped to incorporate more intuitive navigation, modern visuals, and accessible design elements.
+
+### Additional Tests
+Introduce more types of color blindness tests to provide a comprehensive analysis, which may include tests for different types of color vision deficiencies.
+
+### Detailed Reports
+Develop a more detailed report system to provide users with an analysis of their color blindness type (e.g., red-green or blue-yellow deficiency) based on their test performance. Include a PDF download option for users to save or share their results.
+
+### Educational Resources
+Expand educational content in the reports, explaining what each result means, management tips, and how to adapt to daily tasks with color blindness.
 
 ---
 
@@ -87,13 +100,11 @@ The UI/UX design focuses on simplicity, with core components as follows:
 ## Technical Architecture
 The technical architecture for ColorVision includes:
 
-1. **Mobile Application Framework:** Using React Native or Flutter for cross-platform compatibility.
+1. **Mobile Application Framework:** Using React Native for cross-platform compatibility.
 2. **Data Storage:** Local storage for preferences and test history, with cloud storage for advanced features.
 3. **APIs and Third-Party Services:** Integrate Google AdMob for advertisements and Firebase for basic cloud storage and user authentication.
 4. **Backend Server:** Initial backend with Node.js for user authentication and storage management.
 5. **Security and Privacy:** Basic encryption for data protection, with ongoing security enhancements.
-
-Success will be measured by system stability, low crash rates, user retention, and smooth integration with third-party services.
 
 ---
 
